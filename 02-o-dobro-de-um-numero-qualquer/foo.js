@@ -1,26 +1,20 @@
 var assert = require('assert');
 
 //
-// Variáveis
+// Função que retorna o dobro de um número qualquer
 //
-var a, b, temp;
-a = 999
-b = 555
+var dobro = function(num) {
+
+    // Aqui entra a lógica do programa.
+
+}
 
 //
-// Sua lógica
-//
-temp = a
-a = b
-b = temp
-
-
-//
-// Seu teste
+// Testes
 //
 try {
-    assert.equal(555, a);
-    assert.equal(999, b);
+    assert.equal(10, dobro(5));
 } catch(e) {
     console.log(e);
 }
+
