@@ -4,8 +4,8 @@
 //
 // Função que retorna o número de dias
 //
-int dias(int nMeses) {
-    return nMeses * 30;
+int dias(int n_meses) {
+    return n_meses * 30;
 }
 
 //
