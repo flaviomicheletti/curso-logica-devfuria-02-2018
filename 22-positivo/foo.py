@@ -7,7 +7,7 @@
 #
 def ehPositivo(numero):
     if numero >= 0:
-    	return 1
+        return 1
     else:
         return 0
 
