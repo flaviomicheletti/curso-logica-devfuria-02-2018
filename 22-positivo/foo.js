@@ -1,5 +1,3 @@
-
-
 var assert = require('assert');
 
 // Função que descobre se um número é positivo ou negativo
