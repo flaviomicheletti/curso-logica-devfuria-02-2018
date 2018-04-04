@@ -1,8 +1,4 @@
-# Curso de Lógica + Testes Unitários
+# Lógica de Programação
 
-Bem vindo ao meu portifólio!
-
-[devfuria](http://www.defuria.com.br)
-
-
+Códigos da sessão [lógica de programação](http://www.devfuria.com.br/logica-de-programacao/) do site www.devfuria.com.br
 
