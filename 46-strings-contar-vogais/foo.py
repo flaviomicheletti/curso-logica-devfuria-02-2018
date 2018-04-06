@@ -1,7 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Função que descobre a quantidade de vogais
-# de uma determinada string
+#
+# Função para contar quantidade de vogais de determinada string
+#
 def contarVogais(palavra):
     vogais = "aeiou"
     totalVogal = 0

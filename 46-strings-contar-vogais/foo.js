@@ -1,5 +1,8 @@
 var assert = require('assert');
 
+//
+// Função para contar quantidade de vogais de determinada string
+//
 var contarVogais = function(palavra) {
     var totalVogal = 0;
     var vogais = ['a', 'e', 'i', 'o', 'u'];
