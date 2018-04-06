@@ -15,8 +15,8 @@ int contaChar(char str[]) {
 }
 
 //
-// Início do programa
-// e seus testes.
+// Início do programa (testes).
+//
 int main() {
     char ola[] = "palavra";
     assert(7 == contaChar(ola));
