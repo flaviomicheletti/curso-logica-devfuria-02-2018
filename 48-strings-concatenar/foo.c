@@ -9,9 +9,9 @@ void concatenar1(char s1[], char s2[]) {
     int i, j;
 
     // Olha que laço for maroto!!!
-    // Com ele eu vou pegar o tamnho da primeira string...
-    // descomente o `printf` para ver o tamanho da primeira string.
+    // Com ele eu vou detreminar o tamanho da primeira string.
     for (i = 0; s1[i] != '\0'; ++i);
+    /* Descomente o `printf` para ver o tamanho da primeira string. */
     // printf("%d \n", i);
 
     for (j = 0; s2[j] != '\0'; ++j, ++i) {
