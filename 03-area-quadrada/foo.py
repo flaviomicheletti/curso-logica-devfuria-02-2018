@@ -7,7 +7,6 @@ def area(lado1, lado2):
     return lado1 * lado2
 
 
-
 #
 # Seu teste
 #
