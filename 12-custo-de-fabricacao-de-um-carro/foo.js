@@ -6,7 +6,6 @@ var assert = require('assert');
 var custoFinal = function(custoFabrica) {
     var custoDistribuidor = custoFabrica * 0.28;
     var custoImpostos     = custoFabrica * 0.45;
-
     return custoFabrica + custoDistribuidor + custoImpostos;
 }
 
