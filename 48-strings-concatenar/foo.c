@@ -93,7 +93,7 @@ int main() {
     char str1[] = "abc";
     char str2[] = "defg";
 
-    concatenar1(str1, str2);
+    concatenar6(str1, str2);
     assert(strcmp("abcdefg", str1) == 0);
 
     return (0);
