@@ -5,7 +5,7 @@
 // Função que retorna o dobro de um número qualquer
 //
 int dobro(int num) {
-    return 2 * num; // <------- olha aqui o resultado !!!!!!!!!!
+    return 2 * num; // <--- olha aqui o resultado
 }
 
 //
