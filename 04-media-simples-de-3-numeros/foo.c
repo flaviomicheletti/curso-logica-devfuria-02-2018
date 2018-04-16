@@ -2,7 +2,7 @@
 #include <assert.h>
 
 //
-//
+// média simples (aritmética) de 3 valores quaisquer
 //
 int media(int valor1, int valor2, int valor3) {
     return (valor1 + valor2 + valor3) / 3;
