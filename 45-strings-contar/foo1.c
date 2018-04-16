@@ -4,7 +4,7 @@
 //
 // função para contar caracteres de determinada string
 //
-int contaChar(char str[]) {
+int contaCaracter(char str[]) {
     int i = 0;
 
     do {
@@ -18,7 +18,7 @@ int contaChar(char str[]) {
 // Início do programa (testes).
 //
 int main() {
-    char ola[] = "palavra";
-    assert(7 == contaChar(ola));
+    char s[] = "palavra";
+    assert(7 == contaCaracter(s));
     return 0;
 }
