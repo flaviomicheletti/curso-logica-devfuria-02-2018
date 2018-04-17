@@ -4,8 +4,8 @@
 int add(int n) {
     int sum;
 
-    if (n == 1)
-        return 1;
+    if (n == 0)
+        return 0;
     else
         sum = n + add(n - 1);
 
@@ -14,7 +14,7 @@ int add(int n) {
 
 
 void main() {
-    int sum;
+    assert(0 == add(0));
     assert(1 == add(1));
     assert(3 == add(2));
     assert(6 == add(3));
