@@ -26,6 +26,7 @@ void bubble_sort (int vetor[], int n) {
     }
 }
 
+
 int main() {
     //
     // Ordenando o vetor
