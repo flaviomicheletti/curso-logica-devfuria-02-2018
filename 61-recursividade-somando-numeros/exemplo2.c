@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <assert.h>
 
-//
-// https://pt.wikihow.com/Somar-os-N%C3%BAmeros-Inteiros-de-1-at%C3%A9-N
-//
 int add(int n) {
-    return (n * (n + 1)) / 2;
+    if (n == 0)
+        return 0;
+    else
+        return n + add(n - 1);
 }
 
 void main() {

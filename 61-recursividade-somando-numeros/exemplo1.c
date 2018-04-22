@@ -9,9 +9,8 @@ int add(int n) {
     else
         sum = n + add(n - 1);
 
-    return (sum);
+    return sum;
 }
-
 
 void main() {
     assert(0 == add(0));

@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <assert.h>
 
-//
-// https://youtu.be/YEeYk9uEqEI
-//
 int add(int n) {
-    if (n == 0)
-        return 0;
-    else
+    if (n != 0)
         return n + add(n - 1);
+    else
+        return 0;
 }
 
 void main() {
