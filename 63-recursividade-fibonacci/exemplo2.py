@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 
 def fib(n):
+    if n == 0: return 0
+
     a, b = 1, 1
 
     for i in range(n-1):
@@ -13,6 +15,7 @@ def fib(n):
 
     return a
 
+assert fib(0) == 0
 assert fib(1) == 1
 assert fib(2) == 1
 assert fib(3) == 2
