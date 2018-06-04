@@ -23,7 +23,7 @@ int compararStrings(char str1[], char str2[]) {
 //
 int main() {
 
-    char ola1[]  = "ola";
+    char ola1[] = "ola";
     char ola2[] = "ola";
     assert(1 == compararStrings(ola1, ola2));
 
